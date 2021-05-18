@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.related {
+  font-size: 10px;
+}
+
+form {
+  overflow: hidden;
+  display: grid;
+  /* grid-template-columns: 200px 1fr; */
+}
+
+input[type='text'] {
+  padding: 5px 10px 5px 10px;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+label {
+  padding: 5px 10px 5px 10px;
+  width: 200px;
+  padding-right: 24px;
+  grid-column: 1 / 2;
+  font-weight: 700;
+  text-align: left;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+/* header {
+  height: 320px;
+   
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
