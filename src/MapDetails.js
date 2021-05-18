@@ -24,7 +24,7 @@ function MapDetails({ mapDetails }) {
   var details = '';
 
   mapDetails.forEach((element) => {
-    if (element.index == id) {
+    if (element.index === id) {
       details = element;
     }
   });
